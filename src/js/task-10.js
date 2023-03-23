@@ -11,7 +11,7 @@ btnCreate.addEventListener("click", onCreate);
 btnDestroy.addEventListener("click", destroyBoxes);
 
 function onCreate(event) {
-createBoxes()
+createBoxes(amount);
 
 } 
 
