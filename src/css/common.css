@@ -35,3 +35,11 @@ align-items: center;
 .gallery-img{
   width: 50vw;
 }
+
+.box{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: black;
+}
