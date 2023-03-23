@@ -11,12 +11,12 @@ btnCreate.addEventListener("click", onCreate);
 btnDestroy.addEventListener("click", destroyBoxes);
 
 function onCreate(event) {
+const amount = Number(inputEl.value)
 createBoxes(amount);
 
 } 
 
 function createBoxes (amount) {
-  amount = Number(inputEl.value);
   const array = [];
 
   let divSize = 30;
