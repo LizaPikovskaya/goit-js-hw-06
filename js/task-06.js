@@ -3,10 +3,8 @@ inputEl.addEventListener("blur", onValidationBlur);
 
 function onValidationBlur(event) {
   const input = event.currentTarget;
-  if (
-    Number(event.currentTarget.dataset.length) ===
-    event.currentTarget.value.length
-  ) {
+
+  if (Number(input.dataset.length) === input.value.trim().length) {
     input.classList.add("valid");
     input.classList.remove("invalid");
   } else {
