@@ -12,6 +12,7 @@ function onValidation (event) {
           [email.name]: email.value,
           [password.name]: password.value,
         };
+        console.log(resultObj);
     }
     event.currentTarget.reset()
 }
